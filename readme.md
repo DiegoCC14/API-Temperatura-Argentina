@@ -6,7 +6,7 @@
 
 ### Detalles API
 - Detalles Implementacion: 
-	- -Tecnologias: Selenium , Python , SQLAlchemy
+	- Tecnologias: Selenium , Python , SQLAlchemy
 	- Repositorio Github: <a>https://github.com/DiegoCC14/API_SMN_Implementacion</a>
 - #### Github: DiegoCC14
 - #### Correo: diego.xmen123@gmail.com
