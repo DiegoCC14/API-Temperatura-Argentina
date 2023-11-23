@@ -5,7 +5,7 @@
 - #### Body: {"id_location":"num_localidad"}
 
 ### LOCALIDADES DISPONIBLES
-- #### JSON Localidades: <urlJOSN.json>
+- #### [Archivo_JSON_Localidades](https://github.com/DiegoCC14/Api_temperatura_argentina/blob/main/JSON_Localidades.json)
 - #### Estructura JSON: 
 		- { "Provincia" :
 			- { "localidad" : 
