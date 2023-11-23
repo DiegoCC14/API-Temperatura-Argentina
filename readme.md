@@ -4,9 +4,9 @@
 - #### Metodo: GET
 - #### Body: {"id_location":"1554"}
 
-### Detalles API
+### DETALLES API
 - Detalles Implementacion: 
-	- Tecnologias: Selenium , Python , SQLAlchemy
+	- Tecnologias: Selenium , Python , Django , SQLite3 , SQLAlchemy
 	- Repositorio Github: <a>https://github.com/DiegoCC14/API_SMN_Implementacion</a>
 - #### Github: DiegoCC14
 - #### Correo: diego.xmen123@gmail.com
