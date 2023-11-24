@@ -1,11 +1,10 @@
 ### API TEMPERATURA ARGENTINA
 
-- #### Endpoint: <a>http://40.119.47.179:8080/api_smn/</a>
+- #### Endpoint: <a>http://40.119.47.179:8080/api_smn/?id_localidad=889</a>
 - #### Metodo: GET
-- #### Body: {"id_location":"num_localidad"}
 
 ### LOCALIDADES DISPONIBLES
-- #### [Archivo_JSON_Localidades](https://github.com/DiegoCC14/Api_temperatura_argentina/blob/main/JSON_Localidades.json)
+- #### [Archivo_JSON_Localidades_Disponibles](https://github.com/DiegoCC14/Api_temperatura_argentina/blob/main/JSON_Localidades.json)
 - #### Estructura JSON: 
 		- { "Provincia" :
 			- { "localidad" : 
@@ -18,16 +17,13 @@
 #### - Python - Requests
 	import requests , json
   	
-	url = "http://40.119.47.179:8080/api_smn/"
-	payload = json.dumps({ "id_location": "955" })
+	url = "http://40.119.47.179:8080/api_smn/?id_localidad=122"
 	headers = { 'Content-Type': 'application/json' }
-
-	response = requests.request("GET", url, headers=headers, data=payload)
+	response = requests.request("GET", url, headers=headers)
 	print(response.text)
 #### - cURL
-	curl --location --request GET 'http://40.119.47.179:8080/api_smn/' \
+	curl --location --request GET 'http://40.119.47.179:8080/api_smn/?id_localidad=122' \
 	header 'Content-Type: application/json' \
-	data '{"id_location":"955"}'
 
 ### DETALLES API
 - Detalles Implementacion: 
