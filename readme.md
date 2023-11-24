@@ -8,7 +8,7 @@
 - #### Estructura JSON: 
 		- { "Provincia" :
 			- { "localidad" : 
-				- {"id": num_localidad , 
+				- {"id": id_localidad , 
 				- "coordenadas": {"lat","long"} 
 				- }
 			- } 
