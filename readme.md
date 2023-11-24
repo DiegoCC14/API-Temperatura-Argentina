@@ -14,6 +14,20 @@
 				- }
 			- } 
 		- }
+### IMPLEMENTACIONES
+#### - Python - Requests
+	import requests , json
+  	
+	url = "http://40.119.47.179:8080/api_smn/"
+	payload = json.dumps({ "id_location": "955" })
+	headers = { 'Content-Type': 'application/json' }
+
+	response = requests.request("GET", url, headers=headers, data=payload)
+	print(response.text)
+#### - cURL
+	curl --location --request GET 'http://40.119.47.179:8080/api_smn/' \
+	header 'Content-Type: application/json' \
+	data '{"id_location":"955"}'
 
 ### DETALLES API
 - Detalles Implementacion: 
